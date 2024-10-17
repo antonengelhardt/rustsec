@@ -101,7 +101,7 @@ In these cases, you can ignore advisories using the `--ignore` option.
 $ cargo audit --ignore RUSTSEC-2017-0001
 ```
 
-This option can also be configured via the [`audit.toml`](./audit.toml.example) file.
+This option can also be configured via the [`audit.toml`](https://github.com/rustsec/rustsec/blob/main/cargo-audit/audit.toml.example) file.
 
 ## Using `cargo audit` on Travis CI
 
